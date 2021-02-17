@@ -1,0 +1,33 @@
+:root {
+  --grey: grey;
+  --white: #fff;
+  --red: #ec4646;
+  --light-grey: rgba(159, 171, 178, 0.2);
+  --link-color: #4c545d;
+  --link-hover: #16c79a;
+  --black: black;
+  --brown: #493323;
+  --whitesmoke: #f5f5f5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // 1rem=10px,10px/16px=62.5%
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+}
